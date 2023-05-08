@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Juego del Cuadro</title>
+</head>
+<body onload="construirGusano(8,9,'red')">
+    <div class="row">
+        <canvas id="lienzo" width="1920" height="304"></canvas>
+    </div>
+    <div class="row">
+        <div id="col">
+            <button id="up" onclick="moverArriba()">UP</button>
+        </div>
+    </div>
+    <div class="row">
+        <div id="col">
+            <div id="slider">
+                <button onclick="moverIzq()">LEFT</button>
+                <button onclick="moverAbajo()">DOWN</button>
+                <button onclick="moverDer()">RIGHT</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS Personal -->
+    <script src="js/script.js"></script>
+</body>
+</html>
