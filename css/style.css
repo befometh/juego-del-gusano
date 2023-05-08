@@ -1,0 +1,30 @@
+.row::after {
+    display: inline;
+}
+
+.col {
+    width: 100%;
+}
+canvas{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    border:1px solid red;
+}
+
+button {
+    display: inline;
+    margin: auto;
+    padding: 10px;
+}
+
+#up {
+    display: block;
+    margin: auto;
+}
+
+#slider {
+    width: max-content;
+    display: block;
+    margin: auto;
+}
